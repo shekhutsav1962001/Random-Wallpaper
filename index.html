@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>wallpaper</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #f1f1f1;
+    }
+
+    img {
+      max-height: 550px;
+      display: block;
+      margin: 10px auto;
+    }
+
+    p {
+      color: #0a192f;
+      font-weight: bolder;
+      font-size: xx-large;
+    }
+
+    @media (max-width: 500px) {
+      p {
+        font-size: large;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <div class="container">
+    <img id="source" class="img-fluid" alt="">
+    <p class="text-center" id="title">Opps! something went wrong</p>
+    <p class="text-center"><a href="#" id="zoom" class="btn btn-primary my-2" rel="noopener noreferrer">Full Screen
+        Mode</a>
+      <a href="#" id="download" class="btn btn-primary my-2" rel="noopener noreferrer">Download</a>
+      <a href="#" onclick="reload()" class="btn btn-primary my-2" rel="noopener noreferrer">Get New Wallpaper</a>
+    </p>
+    <!-- target="_blank" -->
+  </div>
+
+
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/axios.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+
+
+
+</html>
