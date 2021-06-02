@@ -36,5 +36,3 @@ $(document).ready(() => {
 function reload(){
   location.reload();
 }
-
-// hello
